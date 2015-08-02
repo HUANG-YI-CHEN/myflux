@@ -1,0 +1,16 @@
+{
+  "name": "myflux",
+  "version": "1.0.0",
+  "description": "my flux app",
+  "main": "index.js",
+  "dependencies": {
+    "es6-promise": "^2.3.0",
+    "rsvp": "^3.0.20"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
