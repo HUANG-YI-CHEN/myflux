@@ -1,0 +1,62 @@
+{
+  "data":{
+    "_id": "55be740179f717bdb77df45a",
+    "index": 0,
+    "guid": "3b9ef7ab-498a-4a70-b4cb-0c24e3edd856",
+    "isActive": false,
+    "balance": "$3,415.91",
+    "picture": "http://placehold.it/32x32",
+    "age": 24,
+    "eyeColor": "green",
+    "name": {
+      "first": "Moreno",
+      "last": "Jordan"
+    },
+    "company": "DYMI",
+    "email": "moreno.jordan@dymi.tv",
+    "phone": "+1 (999) 443-3491",
+    "address": "756 Mermaid Avenue, Coalmont, Virginia, 5782",
+    "about": "Nisi laboris exercitation ut ea pariatur ex duis eu laborum. Elit incididunt amet pariatur ullamco. Do cupidatat aliqua in do tempor. Nostrud proident aliquip tempor laborum qui Lorem sit in pariatur nisi aute magna. Lorem enim nisi ullamco aliquip. Officia reprehenderit deserunt sint laboris commodo fugiat reprehenderit nisi officia aliqua commodo proident occaecat. Ut quis ex anim dolore ea labore proident reprehenderit adipisicing id reprehenderit.",
+    "registered": "Monday, November 17, 2014 6:40 AM",
+    "latitude": "45.001286",
+    "longitude": "-109.74077",
+    "tags": [
+      "adipisicing",
+      "nostrud",
+      "mollit",
+      "veniam",
+      "ullamco",
+      "ipsum",
+      "laboris",
+      "custom_tag"
+    ],
+    "range": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jenkins Fischer"
+      },
+      {
+        "id": 1,
+        "name": "Price Delgado"
+      },
+      {
+        "id": 2,
+        "name": "Greer Holden"
+      }
+    ],
+    "greeting": "Hello, Moreno! You have 10 unread messages.",
+    "favoriteFruit": "banana"
+  }
+}
