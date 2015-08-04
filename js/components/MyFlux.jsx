@@ -3,7 +3,6 @@ var List = require('./List');
 var Btn = require('./btn');
 var MyAction = require('../actions/MyActions');
 
-
 var MyFlux = React.createClass({
 
     render: function(){
@@ -14,7 +13,6 @@ var MyFlux = React.createClass({
             </div>
         );
     },
-
     handleClick: function(){
   		MyAction.create("新增物品");
   	}

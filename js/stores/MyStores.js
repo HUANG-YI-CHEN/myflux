@@ -3,7 +3,6 @@ var EventEmitter = require('events').EventEmitter;
 var TodoConstants = require('../constants/MyConstants');
 var assign = require('object-assign');
 
-var CHANGE_EVENT = 'change';
 var _data = [];
 
 var TodoStore = assign({}, EventEmitter.prototype, {
@@ -11,13 +10,13 @@ var TodoStore = assign({}, EventEmitter.prototype, {
     return _data;
   },
   emitChange: function() {
-    this.emit(CHANGE_EVENT);
+    this.emit('change');
   },
   addChangeListener: function(callback) {
-    this.on(CHANGE_EVENT, callback);
+    this.on('change', callback);
   },
   removeChangeListener: function(callback) {
-    this.removeListener(CHANGE_EVENT, callback);
+    this.removeListener('change', callback);
   }
 });
 
